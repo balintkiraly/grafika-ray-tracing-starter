@@ -13,8 +13,8 @@ include_directories(${OPENGL_INCLUDE_DIR} ${GLUT_INCLUDE_DIRS} $(GLEW_INCLUDE_DI
 link_libraries(${GLEW_LIBRARIES})
 
 file(GLOB SOURCE_FILES
-        *.cpp
-        *.h
+        src/*.cpp
+        src/*.h
         )
 
 add_executable(main ${SOURCE_FILES})
