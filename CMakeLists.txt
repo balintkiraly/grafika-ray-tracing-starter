@@ -19,4 +19,4 @@ file(GLOB SOURCE_FILES
 
 add_executable(main ${SOURCE_FILES})
 
-target_link_libraries (main ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} m dl Xinerama Xrandr Xi Xcursor X11 Xxf86vm pthread)
+target_link_libraries (main ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} m dl X11 Xxf86vm pthread)
