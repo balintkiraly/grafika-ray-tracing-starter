@@ -15,3 +15,8 @@ make
 ## Specification
 
 > Insert Homework specification here.
+
+## Screenshot
+
+![Screenshot](assets/screenshot.png)
+
